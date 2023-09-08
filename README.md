@@ -66,7 +66,7 @@ NI社のUSB-6000を利用するためには以下の２つのドライバをイ�
 
 ### EMGRecorder
 
-GitHubのリポジトリから [ERP Recorder.mlappinstall](https://github.com/mokamotosan/EMGRecorder/blob/main/current/build/ERP%20Recorder.mlappinstall) をダウンロードしてファイルをクリックしてください。
+GitHubのリポジトリから [ERP Recorder.mlappinstall](https://github.com/mokamotosan/EMGRecorder/blob/master/build/ERP%20Recorder.mlappinstall) をダウンロードしてファイルをクリックしてください。
 MATLABを起動し、アプリタブに ERP Recorder があることを確認してください。
 
 ## 接続

@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1306565596" file="C:\Users\mokam\OneDrive - 公立大学法人福島県立医科大学（システム神経科学講座）\myProjects\EMGRecorder\source\ERP Recorder.prj" location="C:\Users\mokam\OneDrive - 公立大学法人福島県立医科大学（システム神経科学講座）\myProjects\EMGRecorder\source" name="ERP Recorder" target="target.mlapps" target-name="アプリのパッケージ化">
+  <configuration build-checksum="1713144461" file="C:\Users\OkamotoMasahiro\OneDrive - 公立大学法人福島県立医科大学（システム神経科学講座）\myProjects\EMGRecorder\source\ERP Recorder.prj" location="C:\Users\OkamotoMasahiro\OneDrive - 公立大学法人福島県立医科大学（システム神経科学講座）\myProjects\EMGRecorder\source" name="ERP Recorder" target="target.mlapps" target-name="アプリのパッケージ化">
     <param.appname>ERP Recorder</param.appname>
     <param.authnamewatermark>Masahiro Okamoto</param.authnamewatermark>
     <param.email>mokamoto@fmu.ac.jp</param.email>
@@ -12,17 +12,18 @@
 取り込んだ信号の保存
 グラフ化（波形プロット）
 平均波形の描写</param.description>
-    <param.screenshot>C:\Users\mokam\AppData\Local\Temp\tpeb2fa09c_b1c1_424a_9488_52f93ddc9d2d.png</param.screenshot>
-    <param.version>1.0.0</param.version>
+    <param.screenshot />
+    <param.version>1.1.0</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
     <param.platforms />
-    <param.output>C:\Users\mokam\OneDrive - 公立大学法人福島県立医科大学（システム神経科学講座）\myProjects\EMGRecorder\build</param.output>
+    <param.output>C:\Users\OkamotoMasahiro\OneDrive - 公立大学法人福島県立医科大学（システム神経科学講座）\myProjects\EMGRecorder\build</param.output>
     <param.guid>5a1c9cca-9a9a-4d27-a261-74caf09981c6</param.guid>
     <unset>
       <param.icon />
       <param.icons />
+      <param.screenshot />
       <param.products.name />
       <param.products.id />
       <param.products.version />
@@ -38,19 +39,12 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\mokam\OneDrive - 公立大学法人福島県立医科大学（システム神経科学講座）\myProjects\EMGRecorder" name="build" optional="false">C:\Users\mokam\OneDrive - 公立大学法人福島県立医科大学（システム神経科学講座）\myProjects\EMGRecorder\build</file>
+      <file location="C:\Users\OkamotoMasahiro\OneDrive - 公立大学法人福島県立医科大学（システム神経科学講座）\myProjects\EMGRecorder" name="build" optional="false">C:\Users\OkamotoMasahiro\OneDrive - 公立大学法人福島県立医科大学（システム神経科学講座）\myProjects\EMGRecorder\build</file>
     </build-deliverables>
     <workflow />
     <matlab>
       <root>C:\Program Files\MATLAB\R2023a</root>
-      <toolboxes>
-        <toolbox name="matlabcoder" />
-      </toolboxes>
-      <toolbox>
-        <matlabcoder>
-          <enabled>true</enabled>
-        </matlabcoder>
-      </toolbox>
+      <toolboxes />
     </matlab>
     <platform>
       <unix>false</unix>
