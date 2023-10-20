@@ -1,6 +1,6 @@
 # アプリの概要
 
-EMGRecorderは誘発筋電図を記録するためのMATLABアプリです。
+EPRecorderは誘発筋電図を記録するためのMATLABアプリです。
 外部の刺激装置からのトリガによって、信号（誘発筋電位）を取り込みます。
 そのほか、以下の機能を実装しています。
 
@@ -64,9 +64,9 @@ NI社のUSB-6000を利用するためには以下の２つのドライバをイ�
 
 割愛。お使いの環境に合わせてインストールしてください。
 
-### EMGRecorder
+### EPRecorder
 
-GitHubのリポジトリから [ERP Recorder.mlappinstall](https://github.com/mokamotosan/EMGRecorder/blob/master/build/ERP%20Recorder.mlappinstall) をダウンロードしてファイルをクリックしてください。
+GitHubのリポジトリから [ERP Recorder.mlappinstall](https://github.com/mokamotosan/EPRecorder/blob/master/build/EP%20Recorder.mlappinstall) をダウンロードしてファイルをクリックしてください。
 MATLABを起動し、アプリタブに ERP Recorder があることを確認してください。
 
 ## 接続
@@ -134,5 +134,5 @@ Plotタブに描写されている波形の平均波形を描写することが�
 
 # このプロジェクトに関するヘルプ
 
-- バグ報告やご要望などは [issue](https://github.com/mokamotosan/EMGRecorder/issues) で受け付けています。
-- ご質問は [GitHub Discussion](https://github.com/mokamotosan/EMGRecorder/discussions) にどうぞ。GitHub Discussionの詳細は[ドキュメンテーション](https://docs.github.com/ja/discussions/collaborating-with-your-community-using-discussions/participating-in-a-discussion)をご覧ください。
+- バグ報告やご要望などは [issue](https://github.com/mokamotosan/EPRecorder/issues) で受け付けています。
+- ご質問は [GitHub Discussion](https://github.com/mokamotosan/EPRecorder/discussions) にどうぞ。GitHub Discussionの詳細は[ドキュメンテーション](https://docs.github.com/ja/discussions/collaborating-with-your-community-using-discussions/participating-in-a-discussion)をご覧ください。
