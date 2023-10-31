@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3233749515" file="C:\Users\OkamotoMasahiro\OneDrive - 公立大学法人福島県立医科大学（システム神経科学講座）\myProjects\EPRecorder\source\EP Recorder.prj" location="C:\Users\OkamotoMasahiro\OneDrive - 公立大学法人福島県立医科大学（システム神経科学講座）\myProjects\EPRecorder\source" name="EP Recorder" target="target.mlapps" target-name="アプリのパッケージ化">
+  <configuration build-checksum="1614363489" file="C:\Users\OkamotoMasahiro\OneDrive - 公立大学法人福島県立医科大学（システム神経科学講座）\myProjects\EPRecorder\source\EP Recorder.prj" location="C:\Users\OkamotoMasahiro\OneDrive - 公立大学法人福島県立医科大学（システム神経科学講座）\myProjects\EPRecorder\source" name="EP Recorder" target="target.mlapps" target-name="アプリのパッケージ化">
     <param.appname>EP Recorder</param.appname>
     <param.authnamewatermark>Masahiro Okamoto</param.authnamewatermark>
     <param.email>mokamoto@fmu.ac.jp</param.email>
@@ -12,8 +12,8 @@
 取り込んだ信号の保存
 グラフ化（波形プロット）
 平均波形の描写</param.description>
-    <param.screenshot>C:\Users\OkamotoMasahiro\AppData\Local\Temp\tp10da9e89_04e5_47b9_8879_4fc54562fbaa.png</param.screenshot>
-    <param.version>1.1</param.version>
+    <param.screenshot>C:\Users\OkamotoMasahiro\AppData\Local\Temp\tpd180aca9_f734_49dc_94c3_ab952d197e85.png</param.screenshot>
+    <param.version>1.1.2</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -31,7 +31,10 @@
     <fileset.main>
       <file>${PROJECT_ROOT}\MainApp.mlapp</file>
     </fileset.main>
-    <fileset.depfun />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\DialogApp.mlapp</file>
+      <file>${PROJECT_ROOT}\MeasApp.mlapp</file>
+    </fileset.depfun>
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
